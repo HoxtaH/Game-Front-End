@@ -7,6 +7,7 @@
 
 import { Coin } from "../objects/coin";
 import { Player } from "../objects/player";
+//import * as request from 'request';
 
 export class GameScene extends Phaser.Scene {
   private background: Phaser.GameObjects.Image;
@@ -14,6 +15,7 @@ export class GameScene extends Phaser.Scene {
   private coinsCollectedText: Phaser.GameObjects.Text;
   private collectedCoins: number;
   private player: Player;
+ 
 
   constructor() {
     super({
